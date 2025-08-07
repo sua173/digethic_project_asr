@@ -1,0 +1,108 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+src/attention_phone/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+CLAUDE.md
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Audio Data (large files)
+data/*
+!data/.gitkeep
+*.flac
+*.wav
+*.mp3
+
+# Generated files and outputs (keep directory, ignore contents)
+generated/*
+!generated/.gitkeep
+
+# Logs and runs
+logs/
+runs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# System files
+.cache/
+.local/
+.config/
+*.pid
+*.lock
+
+# Audio processing cache
+.librosa_cache/
